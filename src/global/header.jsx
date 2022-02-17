@@ -1,3 +1,3 @@
-export default function Header(props) {
-    return <header>header {props.prop}</header>;
+export default function Header({ text }) {
+    return <header>{text}</header>;
 }
